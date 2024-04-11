@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font: Arial, Helvetica, sans-serif 16px black;
+  line-height: 1.5em;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.clr {
+  clear: both;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(249, 123, 77);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: Tahoma, sans-serif;
+}
+
+nav {
+  height: 45px;
+  background-color: rgb(41, 41, 41);
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+  padding-right: 25px;
+  padding-top: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wallpaper {
+  background-image: url(Images/wallpaper2.jpg);
+  min-height: 500px;
+  color: white;
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 100px;
+  text-align: center;
+}
+
+.wallpaper h1 {
+  padding-top: 20px;
+}
+
+.main {
+  margin-top: 30px;
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+.main h2 {
+  margin-bottom: 10px;
+}
+
+aside {
+  margin-top: 30px;
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: white;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 40px;
+  height: 30px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    width: 100%;
+    float: none;
+  }
+
+  aside {
+    width: 100%;
+    float: none;
+  }
+}
